@@ -69,9 +69,9 @@ public class EnemyFish4 extends EnemyFish {
                 canvas.save();
                 canvas.clipRect(object_x, object_y, object_x + object_width, object_y + object_height);
                 if (isFromLeft)
-                    canvas.drawBitmap(resizeBmp, object_x, object_y, paint);
-                else
                     canvas.drawBitmap(resizeBmp2, object_x, object_y, paint);
+                else
+                    canvas.drawBitmap(resizeBmp, object_x, object_y, paint);
                 canvas.restore();
             }
             logic();
