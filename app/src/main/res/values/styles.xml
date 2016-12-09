@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="myDialogTheme" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="android:windowNoTitle">true</item><!--除去title-->
+    </style>
+
+
+
+</resources>
